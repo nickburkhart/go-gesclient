@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/common"
-	"github.com/jdextraze/go-gesclient/operations"
-	"github.com/jdextraze/go-gesclient/subscriptions"
-	"github.com/jdextraze/go-gesclient/tasks"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/common"
+	"github.com/nickburkhart/go-gesclient/operations"
+	"github.com/nickburkhart/go-gesclient/subscriptions"
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 type connection struct {

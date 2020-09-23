@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/guid"
-	"github.com/jdextraze/go-gesclient/messages"
+	"github.com/nickburkhart/go-gesclient/guid"
+	"github.com/nickburkhart/go-gesclient/messages"
 )
 
 type RecordedEvent struct {

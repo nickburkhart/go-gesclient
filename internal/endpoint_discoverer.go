@@ -1,8 +1,9 @@
 package internal
 
 import (
-	"github.com/jdextraze/go-gesclient/tasks"
 	"net"
+
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 type EndpointDiscoverer interface {

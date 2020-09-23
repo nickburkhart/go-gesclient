@@ -2,13 +2,14 @@ package subscriptions
 
 import (
 	"errors"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/log"
-	"github.com/jdextraze/go-gesclient/tasks"
 	"sync"
 	"sync/atomic"
 	"time"
 	"unsafe"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/log"
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 var dropSubscriptionEvent = client.NewResolvedEvent(nil)

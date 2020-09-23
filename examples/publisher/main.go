@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/flags"
+	"github.com/nickburkhart/go-gesclient"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/flags"
 )
 
 func main() {

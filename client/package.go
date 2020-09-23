@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/guid"
+	"github.com/nickburkhart/go-gesclient/guid"
 )
 
 const (

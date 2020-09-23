@@ -2,12 +2,13 @@ package flags
 
 import (
 	"flag"
-	"github.com/jdextraze/go-gesclient"
-	"github.com/jdextraze/go-gesclient/client"
 	"log"
 	"net"
 	"net/url"
 	"strings"
+
+	"github.com/nickburkhart/go-gesclient"
+	"github.com/nickburkhart/go-gesclient/client"
 )
 
 var (

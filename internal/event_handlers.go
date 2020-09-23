@@ -3,9 +3,10 @@ package internal
 import (
 	"errors"
 	"fmt"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/log"
 	"reflect"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/log"
 )
 
 type eventHandlers struct {

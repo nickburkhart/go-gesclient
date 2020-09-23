@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/jdextraze/go-gesclient"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/flags"
 	"log"
+
+	"github.com/nickburkhart/go-gesclient"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/flags"
 )
 
 func main() {

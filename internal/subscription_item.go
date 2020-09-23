@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/subscriptions"
+	"github.com/nickburkhart/go-gesclient/subscriptions"
 )
 
 type SubscriptionItem struct {

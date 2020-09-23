@@ -1,8 +1,9 @@
 package client
 
 import (
-	"github.com/jdextraze/go-gesclient/tasks"
 	"time"
+
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 type EventAppearedHandler func(s EventStoreSubscription, r *ResolvedEvent) error

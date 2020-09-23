@@ -1,8 +1,9 @@
 package client
 
 import (
-	"github.com/jdextraze/go-gesclient/common"
 	"time"
+
+	"github.com/nickburkhart/go-gesclient/common"
 )
 
 type PersistentSubscriptionSettings struct {

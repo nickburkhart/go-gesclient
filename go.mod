@@ -1,4 +1,4 @@
-module github.com/jdextraze/go-gesclient
+module github.com/nickburkhart/go-gesclient
 
 go 1.12
 

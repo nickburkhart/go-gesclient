@@ -2,10 +2,11 @@ package gesclient
 
 import (
 	"fmt"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/internal"
 	"net"
 	"net/url"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/internal"
 )
 
 func Create(settings *client.ConnectionSettings, uri *url.URL, name string) (client.Connection, error) {

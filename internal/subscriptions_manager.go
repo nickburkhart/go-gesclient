@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/log"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/log"
 )
 
 type SubscriptionsManager struct {

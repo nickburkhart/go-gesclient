@@ -2,8 +2,9 @@ package operations
 
 import (
 	"fmt"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/messages"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/messages"
 )
 
 func convertStatusCode(result messages.ReadStreamEventsCompleted_ReadStreamResult) (client.SliceReadStatus, error) {

@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/log"
+	"github.com/nickburkhart/go-gesclient/log"
 )
 
 type PackageConnection struct {

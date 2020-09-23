@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/guid"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/guid"
 )
 
 func expectToPanic(t *testing.T, fn func(), v interface{}) {

@@ -2,7 +2,8 @@ package internal
 
 import (
 	"fmt"
-	"github.com/jdextraze/go-gesclient/log"
+
+	"github.com/nickburkhart/go-gesclient/log"
 )
 
 type messageHandler func(message message) error

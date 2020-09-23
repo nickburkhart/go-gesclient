@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/client"
 )
 
 var operationItemNextSeqNo int64 = -1

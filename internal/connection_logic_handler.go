@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/log"
-	"github.com/jdextraze/go-gesclient/subscriptions"
-	"github.com/jdextraze/go-gesclient/tasks"
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/log"
+	"github.com/nickburkhart/go-gesclient/subscriptions"
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 type ConnectionLogicHandler interface {

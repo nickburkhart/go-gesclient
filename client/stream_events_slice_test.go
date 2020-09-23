@@ -1,9 +1,10 @@
 package client_test
 
 import (
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/messages"
 	"testing"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/messages"
 )
 
 func TestNewStreamEventsSlice(t *testing.T) {

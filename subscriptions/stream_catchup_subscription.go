@@ -2,9 +2,10 @@ package subscriptions
 
 import (
 	"fmt"
-	"github.com/jdextraze/go-gesclient/client"
-	"github.com/jdextraze/go-gesclient/tasks"
 	"time"
+
+	"github.com/nickburkhart/go-gesclient/client"
+	"github.com/nickburkhart/go-gesclient/tasks"
 )
 
 type StreamCatchUpSubscription struct {
